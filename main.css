@@ -1,10 +1,12 @@
 nav
 {
+    position: relative;
     background: transparent;
     height: 50px;
 }
 #banner
 {
+    position: relative;
     background: transparent; 
     height: 700px;
 }
@@ -21,6 +23,10 @@ nav ul li,nav .logo
     line-height: 50px;
     margin-right: 20px;
     color: #fff;
+}
+nav .logo
+{
+    padding-left: 20px; 
 }
 nav ul li a 
 {
@@ -139,6 +145,7 @@ h1
 }
 .icon-group
 {
+   
     margin: 60px;
 }
 .gray-section .img-section
@@ -303,4 +310,8 @@ padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center center; 
+}
+body
+{
+    overflow: scroll;overflow-x:hidden;
 }
