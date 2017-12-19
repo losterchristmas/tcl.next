@@ -114,6 +114,7 @@ h1
 }
 .green-section
 {   
+    position: relative;
     text-align: center;
     background: rgb(13, 180, 166);
     color: #fff;
@@ -136,6 +137,7 @@ h1
 }
 .green-section .icon-group .icon
 {
+    position: relative;
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -145,29 +147,44 @@ h1
 }
 .icon-group
 {
-   
+    position: relative;
     margin: 60px;
 }
 .gray-section .img-section
 {
+    position: relative;
     width: 45%;
-    font-size: 0; 
+    font-size: 0;
+    padding: 0px;
 }
 .img-section img
 {
+    position: relative;
     width: 100%;
     
 }
 .gray-section .text-section
 {
+    position: relative;
     width: 55%;
 }
+.text-section p
+{
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 50px;
+}
+
 .gray-section
 {
+    position: relative;
     background: rgb(73, 74, 75);
 }
 .article-preview > div
 {
+    position: relative;
     float: left;
     /* font-size: 0; */
 }
@@ -182,19 +199,32 @@ h1
     position: relative;
     top: 68px;
     left: 50px;
+
 }
 .text-section h2
 {
+    position: absolute;
     /* text-align: center; */
     color: #fff;
-    margin: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
-.text-section p
+/* .text-section p
 {
-    /* text-align: center; */
+    position: relative;
+    text-align: center; 
     color: #fff;
     font-size: 18px;
     letter-spacing: 1px;
+    font-size: 20px;
+} */
+.clz-heading
+{
+    line-height: 30px;
+    margin: 30px; 
+    /* text-align: center; */
+    /* width: 60%;    */
 }
 .article-preview:nth-child(odd)
 {
@@ -202,9 +232,11 @@ background: rgb(87, 87, 87)
 }
 .purple-section
 {
+    position: relative;
     padding: 80px;
     background: rgb(102, 15, 202);
     color: white;
+    height: 1500px;
 }
 .purple-section h2
 {
@@ -217,7 +249,7 @@ h2
 }
 p
 {
-    font-size: 18px;
+    /* font-size: 18px; */
     letter-spacing: 1px;
     color: #fff;
     text-align: center;
@@ -245,10 +277,22 @@ ul
 {
     position: relative;
     float: left;
-    width: 45%;
-    height: 300px;
-    padding: 20px;
-    /* border: 1px solid white; */
+    width: 37%;
+    height: 350px;
+    padding: 30px;
+    /* border: 1px solid #fff; */
+}
+
+.card-group
+{
+    position: absolute; 
+    width: 75%;
+    height: 900;
+    left: 0;
+    right: 0;
+    padding-left:60px; 
+    margin:auto;
+    /* border: 1px solid #fff; */
 }
 .card:first-child
 {
